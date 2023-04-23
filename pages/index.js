@@ -51,7 +51,7 @@ const Home = () => {
         <div className="prompt-container">
           <textarea
             className="prompt-box"
-            placeholder="start typing here.... example:  quit my job and go trekking across South America for a year"
+            placeholder="start typing here.... example:  quit my job and go trekking across South America for a year."
             value={userInput}
             onChange={onUserChangedText}
           />
