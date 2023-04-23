@@ -321,14 +321,16 @@ textarea {
 }
 
 .output-content p {
-    text-align: center;
+    text-align: left;
+    font-size: 1.5rem;
     white-space: pre-line;
     color: rgba(255, 255, 255, 0.5);
 }
 
+
 @media (min-width: 810px) and (max-width: 1199px) {
     .container {
-        max-width: 600px;
+       max-width: 600px;
         width: 100%;
     }
 
@@ -360,7 +362,7 @@ textarea {
 
 @media (max-width: 600px) {
     .container {
-        max-width: 400px;
+        max-width: 330px; /* changed from 400px */
         width: 100%;
     }
 
@@ -377,7 +379,7 @@ textarea {
     }
 
     .prompt-buttons {
-        justify-content: center;
+        justify-content: right; /* changed for centered */
     }
 
     .prompt-container {

@@ -51,7 +51,7 @@ const Home = () => {
         <div className="prompt-container">
           <textarea
             className="prompt-box"
-            placeholder="start typing here"
+            placeholder="start typing here.... example:  quit my job and go trekking across South America for a year"
             value={userInput}
             onChange={onUserChangedText}
           />
@@ -67,8 +67,8 @@ const Home = () => {
         {apiOutput && (
         <div className="output">
           <div className="output-header-container">
-            <div className="output-header">
-              <h3>Output</h3>
+            <div className="output-header"> 
+              <h3></h3>
             </div>
           </div>
           <div className="output-content">
@@ -76,18 +76,6 @@ const Home = () => {
           </div>
   </div>
 )}
-      </div>
-      <div className="badge-container grow">
-        <a
-          href="https://github.com/jacksen30"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <div className="badge">
-            <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>Designed by J Nillson</p>
-          </div>
-        </a>
       </div>
     </div>
   );
